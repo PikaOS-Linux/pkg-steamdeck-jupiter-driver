@@ -6,24 +6,23 @@ index 1a46251..cbf7857 100755
 -#!/usr/bin/python
 +#!/bin/env python3 -u
 
-diff --git a/usr/share/jupiter-fan-control/fancontrol.py b/usr/share/jupiter-fan-control/fancontrol.py
-index 1a46251..cbf7857 100755
---- a/usr/share/jupiter-fan-control/fancontrol.py
-+++ b/usr/share/jupiter-fan-control/fancontrol.py
+diff '--color=auto' -ru a/usr/share/jupiter-fan-control/fancontrol.py b/usr/share/jupiter-fan-control/fancontrol.py
+--- a/usr/share/jupiter-fan-control/fancontrol.py	2023-07-15 12:18:33.856734973 +0300
++++ b/usr/share/jupiter-fan-control/fancontrol.py	2023-07-15 12:18:55.593724882 +0300
 @@ -1,4 +1,4 @@
 -#!/usr/bin/python -u
 +#!/bin/env python3 -u
  """jupiter-fan-controller"""
  import signal
  import os
-
-diff --git a/usr/share/jupiter-fan-control/PID.py b/usr/share/jupiter-fan-control/PID.py
-index 1a46251..cbf7857 100755
---- a/usr/share/jupiter-fan-control/PID.py
-+++ b/usr/share/jupiter-fan-control/PID.py
+diff '--color=auto' -ru a/usr/share/jupiter-fan-control/PID.py b/usr/share/jupiter-fan-control/PID.py
+--- a/usr/share/jupiter-fan-control/PID.py	2023-07-15 12:18:33.856734973 +0300
++++ b/usr/share/jupiter-fan-control/PID.py	2023-07-15 12:18:55.593724882 +0300
 @@ -1,4 +1,4 @@
 -#!/usr/bin/python
 +#!/bin/env python3
  #
  # This file is part of IvPID.
  # Copyright (C) 2015 Ivmech Mechatronics Ltd. <bilgi@ivmech.com>
+
+
