@@ -6,7 +6,7 @@ DEBIAN_FRONTEND=noninteractive
 git clone https://github.com/KyleGospo/jupiter-fan-control
 git clone https://github.com/KyleGospo/jupiter-hw-support
 mkdir -p ./steamdeck-jupiter-driver
-cp -rvf ./jupiter-hw-support/usr ./jupiter-fan-control
+cp -rvf ./jupiter-fan-control/usr ./steamdeck-jupiter-driver
 cp -rvf ./jupiter-hw-support/etc ./steamdeck-jupiter-driver
 cp -rvf ./jupiter-hw-support/usr ./steamdeck-jupiter-driver
 cp -rvf ./debian ./steamdeck-jupiter-driver
